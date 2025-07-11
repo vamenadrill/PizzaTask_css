@@ -1,0 +1,156 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #242424;
+    background: url(360_F_338486208_fbzGlyyEU5rZ8T3mc2A6ba1KHJmAYJe4.jpg) no-repeat center/cover fixed;
+  }
+  
+  header {
+    margin-bottom: 30px;
+    background-color: #7a0000;
+    margin-top: -40px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  
+  nav {
+    margin-bottom: -10px;
+    margin-top: 50px;
+    float: right;
+
+
+
+  }
+  
+  nav a {
+    margin-right: 15px;
+    font-size: 19px;
+    text-decoration: none;
+    color: #b30000;
+    font-weight: bold;
+  }
+  nav a:hover{
+    color: #1d1d1d;
+    transform: scale(1.08);
+    width: 400px;
+    transition:  1s;
+    
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    color: #b30000;
+    text-shadow: 2px 2px #333;
+    margin-left: 80px;
+  }
+  img{
+    width: 60px;
+    margin-top: -65px;
+    float: left;
+    mix-blend-mode: unset;
+  }
+  h1 span {
+    color: #7a0000;
+  }
+  
+  p {
+    color: #aa5353;
+    font-size: 30px;
+    margin-left: 60px;
+
+  }
+  
+  form {
+    background: #1d1d1d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  fieldset {
+    border: 1px solid #141414;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #b33b3b;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  input{
+    background-color: transparent;
+  }
+  input:focus{
+    transform: scale(1.05);
+    transition: 1s;
+    box-shadow: 2px 2px #1d1d1d;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8f2a2a;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+    background-color: transparent;
+  }
+  
+  .section {
+    margin-top: 20px;
+  }
+  
+  .section p {
+    font-weight: bold;
+  }
+  
+  .section label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #b30000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  button.reset {
+    background-color: #777;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: 0.6s;
+  }
+  
